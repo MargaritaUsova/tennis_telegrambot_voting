@@ -7,5 +7,5 @@ build:
   requirementsPath: /Users/margaritausova/Documents/Work/tennis_telegrambot_voting/requirements.txt
 run:
   scriptName: /Users/margaritausova/Documents/Work/tennis_telegrambot_voting/main.py
-  persistenceMount: /Users/margaritausova/Documents/Work/tennis_telegrambot_voting
+  persistenceMount: /data
   containerPort: 80
