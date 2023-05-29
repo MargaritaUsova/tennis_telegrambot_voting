@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.8
+build:
+  requirementsPath: /Users/margaritausova/Documents/Work/tennis_telegrambot_voting/requirements.txt
+run:
+  scriptName: /Users/margaritausova/Documents/Work/tennis_telegrambot_voting/main.py
+  persistenceMount: /Users/margaritausova/Documents/Work/tennis_telegrambot_voting
+  containerPort: 80
