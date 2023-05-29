@@ -1,11 +1,6 @@
 import telebot
 from telebot import types
-from pathlib import Path
 import os
-import mysql.connector
-from getpass import getpass
-from mysql.connector import connect, Error
-import mysql.connector
 
 class Ren_bot:
     def __init__(self, url):
