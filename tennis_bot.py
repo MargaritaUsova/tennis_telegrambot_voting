@@ -10,9 +10,9 @@ import mysql.connector
 class Ren_bot:
     def __init__(self, url):
         self.bot = telebot.TeleBot(url)
-        with open('/Users/margaritausova/Documents/Work/tennis_telegrambot_voting/names.txt', 'r') as f:
+        with open('names.txt', 'r') as f:
             self.nums = f.read().splitlines()
-        directory = '/Users/margaritausova/Documents/Work/tennis_telegrambot_voting/bot_images'
+        directory = 'bot_images'
         self.images = []
         for filename in os.listdir(directory):
             f = os.path.join(directory, filename)
